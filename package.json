@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel serve index.html",
     "test": "node tests/nasa-feed.test.js",
-    "build": "npm run test && parcel build src/index.html"
+    "build": "npm run test && parcel build index.html"
   },
   "author": "wangdan",
   "license": "ISC",
