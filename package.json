@@ -4,13 +4,14 @@
   "description": "npm",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel serve index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel serve index.html"
+    "build": "npx parcel build index.html"
   },
   "author": "wangdan",
   "license": "ISC",
   "dependencies": {
-    "date-fns": "^4.1.0",
+    "date-fns": "^2.12.0",
     "parcel-bundler": "^1.12.5"
   }
 }
